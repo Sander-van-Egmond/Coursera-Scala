@@ -1,17 +1,16 @@
 import week2.Rational
 
+val x = new Rational(1,3)
+val y = new Rational(5,7)
+val z = new Rational(3,2)
 
-val x = new Rational(1,2)
 x.numer
 x.denom
+x - y - z
 
+y+y
+x < y
+x max y
 
-val y = new Rational(2,3)
+new Rational(2)
 
-x.add(y)
-
-x.toString
-
-y.sub(x)
-
-y.neg
